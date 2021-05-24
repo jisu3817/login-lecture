@@ -1,1 +1,4 @@
-/node_modules
+**node_modules
+
+# 맥 메타 파일
+.Ds_Store
