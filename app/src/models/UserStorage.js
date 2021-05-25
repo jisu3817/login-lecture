@@ -3,7 +3,7 @@
 class UserStorage {
 static #users = {
     id: ["jisu", "개발자", "지수" ],
-    pasword: ["123", "123", "12345"],
+    psword: ["123", "123", "12345"],
     name: ["wltn", "지수", "개발자"],
     };
 

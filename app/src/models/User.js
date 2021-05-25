@@ -9,9 +9,9 @@ class User {
 
     login() {
         const body = this.body;
-        const { id, pasword } = UserStorage.getUserInfo(body.id);     
+        const { id, psword } = UserStorage.getUserInfo(body.id);     
         if (id) {
-            if (id === body.id && pasword === body.pasword) {
+            if (id === body.id && psword === body.psword) {
                 return { success: true };
             }
             return { success: false, msg: "비밀번호가 틀렸습니다." };
